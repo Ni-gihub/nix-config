@@ -19,7 +19,11 @@
   programs.niri.enable = true;
   services.displayManager.ly.enable = true;
   programs.xwayland.enable = true;
-
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
+  };
+  
   # Nixの設定
   nixpkgs.config.allowUnfree = true;
   nix.settings.experimental-features = [ "nix-command" "flakes" ]; # Flakesを有効化
