@@ -11,6 +11,12 @@
     vscode
     vesktop
 
+    # スクショ・録画機能
+    grim              
+    slurp             　
+    wl-clipboard       
+    gpu-screen-recorder 
+
     # 開発環境
     git
     python3

@@ -15,10 +15,17 @@
   # 仮想化
   virtualisation.docker.enable = true;
 
+  programs.nix-ld.enable = true;
+
   # グラフィック・ディスプレイマネージャー・デスクトップ (Niri)
   programs.niri.enable = true;
   services.displayManager.ly.enable = true;
   programs.xwayland.enable = true;
+
+  # Wayland portal
+  xdg.portal.enable = true;
+
+  
   programs.direnv = {
     enable = true;
     nix-direnv.enable = true;
