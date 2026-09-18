@@ -10,6 +10,7 @@
     google-chrome
     vscode
     vesktop
+    wl-mirror
 
     # スクショ・録画機能
     grim
