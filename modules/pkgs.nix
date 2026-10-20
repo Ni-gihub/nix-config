@@ -11,6 +11,7 @@
     vscode
     vesktop
     wl-mirror
+    bibata-cursors
 
     # スクショ・録画機能
     grim
