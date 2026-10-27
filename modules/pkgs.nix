@@ -3,6 +3,7 @@
 {
   environment.systemPackages = with pkgs; [
     # GUI / ツール
+    obsidian
     foot
     fuzzel
     waybar
